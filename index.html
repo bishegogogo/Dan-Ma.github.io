@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>马丹 - 个人简历</title>
+  <style>
+    body {
+      font-family: "Microsoft YaHei", sans-serif;
+      background-color: #f7f9fc;
+      margin: 0;
+      padding: 20px;
+    }
+    .resume {
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      border-bottom: 2px solid #2c3e50;
+      padding-bottom: 20px;
+    }
+    .photo {
+      flex: 0 0 150px;
+    }
+    .photo img {
+      width: 120px;
+      height: auto;
+      border-radius: 8px;
+    }
+    .info {
+      flex: 1;
+      padding-left: 30px;
+    }
+    .info h1 {
+      margin: 0;
+      font-size: 28px;
+      color: #2c3e50;
+    }
+    .info p {
+      margin: 6px 0;
+    }
+    .section {
+      margin-top: 30px;
+    }
+    .section h2 {
+      background-color: #2c3e50;
+      color: white;
+      padding: 10px;
+      border-radius: 4px;
+      font-size: 18px;
+    }
+    .section .item {
+      padding: 10px 0;
+      border-bottom: 1px solid #ddd;
+    }
+    .section .item:last-child {
+      border-bottom: none;
+    }
+    .label {
+      font-weight: bold;
+      color: #34495e;
+    }
+  </style>
+</head>
+<body>
+  <div class="resume">
+    <div class="header">
+      <div class="photo">
+        <img src="photo.jpg" alt="马丹" />
+      </div>
+      <div class="info">
+        <h1>马丹</h1>
+        <p><span class="label">出生年月：</span>2000-12</p>
+        <p><span class="label">籍贯：</span>山西省</p>
+        <p><span class="label">性别：</span>女</p>
+        <p><span class="label">政治面貌：</span>中共党员</p>
+        <p><span class="label">电话：</span>13546257370</p>
+        <p><span class="label">邮箱：</span>madan1229@163.com</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>教育背景</h2>
+      <div class="item">
+        <p><span class="label">2023.09 - 2026.06：</span>中国石油大学（北京） - 计算机技术（硕士）</p>
+      </div>
+      <div class="item">
+        <p><span class="label">2019.09 - 2023.06：</span>中北大学 - 物联网工程（本科）</p>
+      </div>
+    </div>
+
+    <!-- 可选：项目经验等 -->
+    <!-- <div class="section">
+      <h2>项目经验</h2>
+      <div class="item">
+        <p><span class="label">项目名称：</span>XXX项目</p>
+        <p><span class="label">项目描述：</span>项目相关内容</p>
+      </div>
+    </div> -->
+  </div>
+</body>
+</html>
